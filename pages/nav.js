@@ -15,7 +15,7 @@ const Navbar = () => (
     borderRadius: "30px",
     opacity:"99%",
     padding: "0 20px",
-    background: "#0a7b8a",
+    background: "#00bcf2",
     boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.1)"
   }}>
     <Link href="#" style={{ marginLeft: "20px", fontWeight: "bold" }}>
