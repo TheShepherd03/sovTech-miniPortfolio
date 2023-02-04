@@ -5,14 +5,6 @@
   font-display: block;
   src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
 }
-@font-face {
-  font-family: 'Inter var';
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: block;
-  src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
-  font-named-instance: 'Italic';
-}
 
 body {
   font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
@@ -27,7 +19,6 @@ body {
 }
 b,
 strong,
-h3,
 h4,
 h5,
 h6 {
@@ -35,14 +26,24 @@ h6 {
 }
 h1 {
   font-variation-settings: 'wght' 850;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 h2 {
   font-variation-settings: 'wght' 750;
+  text-align: center;
+  font: 1em sans-serif;
+}
+h3 {
+  font-variation-settings: 'wght' 750;
+  text-align: center;
+  font: 1em sans-serif;
 }
 
 @media screen and (min-device-pixel-ratio: 1.5),
   screen and (min-resolution: 1.5dppx) {
   body {
+    
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -53,8 +54,32 @@ details summary {
 }
 
 img.next-image {
-  margin: 0;
+  margin: 1px;
+  margin-bottom: -5px;
 }
+
+img.profile {
+  border-radius: 50px;
+}
+
+#intro {
+  text-align: center;
+}
+
+#para {
+  height: 10%;
+  width: 90%;
+  background-image: url("/images/techBac.jpg");
+  background-position: center;
+  
+}
+#para p{
+  text-align: center;
+  opacity: 0%;
+}
+
+#parent { white-space: nowrap; }
+.child { display: inline-block; }
 
 .prose a {
   color: #0074de;
@@ -62,4 +87,8 @@ img.next-image {
 
 .nav-line .nav-link {
   color: #69778c;
+}
+
+.navbarScroll.navbarDark {
+  background-color: white;
 }
