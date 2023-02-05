@@ -1,6 +1,6 @@
 # miniPortfolio
 
->mini Portfolio site for SolvTech grad programme
+>mini Portfolio site for SovTech grad programme
 
 >This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/).
 
